@@ -1,3 +1,4 @@
+-- this plug in does auto formatting
 return {
 	{
 		"nvimtools/none-ls.nvim",

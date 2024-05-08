@@ -27,6 +27,7 @@ return {
   {
     'neovim/nvim-lspconfig',
     config = function()
+      -- this gets the auto completion command line interface tools(CLI) to link to lsp, so the server as lsp. 
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
       local lspconfig = require("lspconfig")

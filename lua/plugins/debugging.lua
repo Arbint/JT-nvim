@@ -1,3 +1,8 @@
+--[[
+-- to make the c++ debugging work, well will need gdb version 14+
+-- get it by downloading the https://cygwin.com/install.html and install 
+-- make sure when installing, at the package select options, search for gcc and gdb, and pick the correct version
+--]]
 return
 {
   {
